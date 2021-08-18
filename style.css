@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="stile.css">
+<style>
+    body{
+       margin: 0px;
+       padding: 0px;
+        background: url('kari2.jpg');
+        color: white;
+    }
+    .left{
+/* border: 2px solid blueviolet; */
+position: absolute;
+left: 34px;
+top: 22px;
+/* border-radius: px; */
+width: 5px;
+    }
+    .mid{
+        display: block;
+        width: 40%;
+        margin: 18px auto;
+        /* border: 2px solid blueviolet; */
+        border-radius: 12px;
+color: solid grey;
+
+    }
+    .right{
+/* border: 2px solid blue; */
+position: absolute;
+right: 34px;
+top: 22px;
+
+    }
+    .navbar{
+        display:inline-block;
+    }
+    .navbar li{
+display: inline-block;
+color: solid black;
+font-size: 20px;
+    }
+    .navbar li a{
+        text-decoration: none;
+        padding: 30px;
+       
+    }
+    .navbar li:hover{
+        text-decoration: underline;
+        color: rgb(145, 133, 133);
+       
+    }
+    .left img{
+        width: 70px;
+    }
+    .left div{
+        font-style: inherit;
+        color: solid grey
+         font-weight: bold;
+    }
+   .right div{
+    width: 35px;
+  height: 2px;
+  background-color: white;
+  margin: 6px 0;
+   }
+   .cnt{
+      border: 3px solid gray;
+       margin: 100px 31px;
+       padding: 42px;
+       width: 23%;
+       /* border: solid gray; */
+       /* background-color: lightslategray; */
+border-radius: 83px;
+cursor: pointer;
+   }
+   .form-group input{
+       text-align: center;
+       display: block;
+font-size: 3px;
+margin: 7px 50px;
+padding: 2px;
+font-size: 18px;
+width: 70%;
+border-radius: 8px;
+   }
+   .cnt h2{
+       text-align: center;
+   }
+   .cnt button{
+       margin: auto;
+       display: block;
+       width: 23%;
+   }
+</style>
+<body>
+    <header class="header">
+    <div class="left">
+<img src="kari4.jpg" alt="">
+<div>
+    KARIGAR
+</div>
+    </div>
+    <div class="mid">
+<ul class="navbar">
+    <li><a href="#"></a>Home</li>
+    <li><a href="#"></a>About us</li>
+    <li><a href="#"></a>Contact us</li>
+    <li><a href="#"></a>Work</li>
+</ul>
+    </div>
+    <div class="right">
+<!-- <button class="btn"></button>
+<button></button> -->
+<div></div>
+<div></div>
+<div></div>
+    </div>
+    </header>
+    <div class="cnt">
+        <h2>Join us</h2>
+        <form action="noaction.php"></form>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your name">
+
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Contact number">
+
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="City">
+
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Feild of intrest">
+
+        </div>
+        <button class="btn">Submit</button>
+    </div>
+</body>
+</html> 
